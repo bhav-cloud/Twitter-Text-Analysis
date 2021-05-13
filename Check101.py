@@ -44,7 +44,7 @@ import matplotlib.pyplot as plt
 
 ################### import the dummy data  #############
 #df = pd.read_csv("C:\\Users\\bhavya.adlakha\\Bangalore-tweets.csv")
-df = pd.read_csv("C:\\Users\\bhavya.adlakha\\Dummy.csv")
+df = pd.read_csv("https://github.com/bhav-cloud/Twitter-Text-Analysis/blob/main/Dummy.csv")
 
 
 # In[3]:

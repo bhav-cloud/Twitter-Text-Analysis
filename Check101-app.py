@@ -14,7 +14,6 @@ from datetime import datetime,timedelta
 from textblob import TextBlob# for doing sentimental analysis
 import re # regex for cleaning the tweets
 import nltk
-nltk.download()
 nltk.download('wordnet')
 #nltk.download('punkt')
 #import nltkmodules

@@ -7,14 +7,14 @@
 import tweepy
 import pandas as pd
 import time
-import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime,timedelta
-import tweepy # to use Twitter’s API
+#import tweepy # to use Twitter’s API
 from textblob import TextBlob# for doing sentimental analysis
 import re # regex for cleaning the tweets
 import nltk
+nltk.download()
 from nltk.corpus import wordnet
 import plotly.express as px
 import string
@@ -31,9 +31,6 @@ from sklearn.metrics import f1_score
 from sklearn.model_selection import train_test_split
 nltk.download('punkt')
 import streamlit as st
-import pandas as pd
-import numpy as np
-import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt

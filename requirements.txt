@@ -7,4 +7,4 @@ plotly==4.14.3
 textblob==0.15.3
 seaborn==0.10.1
 nltk==3.6.2
-corpus 0.4.2
+corpus==0.4.2

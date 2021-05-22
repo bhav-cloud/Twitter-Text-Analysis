@@ -15,6 +15,9 @@ from textblob import TextBlob# for doing sentimental analysis
 import re # regex for cleaning the tweets
 import nltk
 nltk.download()
+nltk.download('wordnet')
+nltk.download('punkt')
+import nltkmodules
 from nltk.corpus import wordnet
 import plotly.express as px
 import string
